@@ -52,3 +52,6 @@ Monday
 
 Include a `makefile` for the project that builds and executes the homework 
 for the above example.
+
+Make sure that the files `dow.s`, `dow.h`, `main.c`, and `makefile` are 
+pushed to your `hw6` directory in your repo.
