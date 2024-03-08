@@ -2,8 +2,8 @@
 
 ## Day of the Week (5 points)
 Create a directory in your repo named `hw6`. Implement the day of week 
-function by 
-converting the following C function into assembly language. Put the function in 
+function below by 
+converting it into assembly ARMv8 language. Put the function in 
 a file named `dow.s`.  Include a header file `dow.h`.
 
 Do this translation from C to assembly on your own. You will need to do 
