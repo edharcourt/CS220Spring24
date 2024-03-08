@@ -1,6 +1,6 @@
 # Homework 6 
 
-## Day of the Week (5 points)
+## Day of the Week
 Create a directory in your repo named `hw6`. Implement the day of week 
 function below by 
 converting it into assembly ARMv8 language. Put the function in 
