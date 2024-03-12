@@ -40,7 +40,7 @@ int dow(int m, int d, int y) {
 The ARM processor does not have a reminder instruction. It easy easy
 to implement yourself though using `sub`, `mul`, and `sdiv`. 
 
-To compute the remainder $r$, $r = x mod y$, $r = x - qy$ where $q = x/y$. So $r = x - (x/y)y$.
+To compute the remainder $r$, $r = x \mod y$, $r = x - qy$ where $q = x/y$. So $r = x - (x/y)y$.
 
 Write a main function `main.c` that takes the month, day,
 and year as *command line arguments* and calls the assembly version of
