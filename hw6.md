@@ -9,8 +9,7 @@ a file named `dow.s`.  Include a header file `dow.h`.
 Do this translation from C to assembly on your own. You will need to do 
 this on an exam. While being able to analyze the output of the compiler 
 is important it doesn't develop your skill at writing assembly. Furthermore, 
-the assembly that a human writes by hand will not look anything like the output of the 
-compiler, so it will be very easy to detect. 
+the assembly that a human writes by hand will not look anything like the output of the compiler, so it will be very easy to detect. 
 
 ```
 #include "dow.h"
@@ -38,6 +37,10 @@ int dow(int m, int d, int y) {
 }
 ```
 
+The ARM processor does not have a reminder instruction. It easy easy
+to implement yourself though using `sub`, `mul`, and `sdiv`. 
+
+To compute the remainder $r$, $r = x % y$, $r = x - qy$ where $q = x/y$. So $r = x - (x/y)y$.
 
 Write a main function `main.c` that takes the month, day,
 and year as *command line arguments* and calls the assembly version of
