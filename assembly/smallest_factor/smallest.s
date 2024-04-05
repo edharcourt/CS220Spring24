@@ -7,11 +7,11 @@ int64_t smallest(int64_t n) {
 }
 */
 .arch armv8-a   // 'a' means application processor
-.global smallest_div
+.global smallest
 .text
 .align 2
 
-smallest_div:
+smallest:
     mov x1, #2
     
 while: // top of the while 
