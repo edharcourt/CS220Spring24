@@ -31,7 +31,6 @@ int main(void) {
     
     if (!status) {
         puts("Access denied");    
-        exit(-1);
     }
     else {
         puts("Logged on");    
