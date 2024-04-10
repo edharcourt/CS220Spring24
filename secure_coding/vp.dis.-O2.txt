@@ -44,11 +44,3 @@
  8b8:	a8c37bfd 	ldp	x29, x30, [sp], #48
  8bc:	d65f03c0 	ret
 
-Disassembly of section .fini:
-
-00000000000008c0 <_fini>:
- 8c0:	d503201f 	nop
- 8c4:	a9bf7bfd 	stp	x29, x30, [sp, #-16]!
- 8c8:	910003fd 	mov	x29, sp
- 8cc:	a8c17bfd 	ldp	x29, x30, [sp], #16
- 8d0:	d65f03c0 	ret
